@@ -1,0 +1,233 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    
+}
+.dimension-logo{
+    background-color: black;
+    margin: 0;
+}
+.logosony{
+    position: relative;
+    padding: 4px 0px;
+    left:94%;
+}
+.dimension-ps{
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    position: relative;
+    margin: 0;
+    
+}
+.logops{
+    padding: 11px 2px 11px 22px;
+}
+#actualizar:hover{
+    cursor: pointer;
+}
+.dimension-ps nav{
+    position: absolute;
+    top: 22px;
+    left: 58px;
+}
+.dimension-ps nav li{
+    display: inline;
+    margin: 0 0 0 22px;
+}
+.dimension-ps nav a{
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+    font-weight: bold;
+}
+.dimension-ps nav a:hover{
+    color: rgb(58, 122, 218);
+}
+.fondo1{
+    vertical-align: middle;
+    opacity: 0.98;
+    width: 100%;
+    border: 1px solid #1f1f1f;
+}
+.principal{
+    position: relative;
+    width: 100%;
+}
+.recuadro{
+    position: absolute;
+    display: inline;
+    width: 360px;
+    height: 150px;
+    top: 0;
+    margin: 51px 83px;
+}
+.recuadro h4{
+    font-size: 49px;
+    color: #ffffff;
+    
+}
+.recuadro sup{
+    font-size: 0.55em;
+    vertical-align: super;
+}
+.recuadro .texto1{
+    margin: 27px 0 0 0;
+    font-size: 12px;
+    font-weight: bold;
+    color: #ffffff;
+}
+.recuadro .texto2{
+    border: 1px solid #ffffff; 
+    font-size: 9.5px;
+    margin: 14px 0 0 0;
+    padding: 0.35em 0.4em;
+    font-weight: bold;
+    color: white;
+    display: inline-block;
+}
+.label1{
+    position: absolute;
+    display: inline;
+    width: 360px;
+    height: 55px;
+    top: 260px;
+    margin: 51px 70px;
+    padding-left:18px;
+    font-size: 27px;
+    border-radius: 10px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    color: #ffffff;
+    cursor: pointer; /* Agregar cursor pointer */
+    
+}
+.label1:hover{
+    background-color: rgba(128, 128, 128, 0.2);
+}
+
+.diseño-boton1 input[type="radio"]{
+    transform: scale(2.4);
+    margin-right: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.label2{
+    position: absolute;
+    display: inline;
+    width: 360px;
+    height: 120px;
+    top: 260px;
+    margin: 107px 70px;
+    padding-left:18px;
+    font-size: 27px;
+    border-radius: 10px;
+    color: #ffffff;
+    cursor: pointer; /* Agregar cursor pointer */
+}
+.label2:hover{
+    background-color: rgba(128, 128, 128, 0.2);
+}
+.label2 p{
+    
+    padding: 0 0 0 75px;
+    line-height: 1.5em;
+    color: rgb(251, 203, 89);
+    font-size: 13px;
+    font-weight: bold;
+}
+.linea{
+    text-decoration-line: line-through;
+}
+.diseño-boton2{
+    padding: 15px 0 0 0;
+}
+
+.diseño-boton2 span{
+    text-decoration: line-through;
+    color: #ffffff;
+    opacity: 0.7;
+    font-size: 24px;
+}
+.diseño-boton2 input[type="radio"]{
+    transform: scale(2.4);
+    margin-right: 20px;
+    margin-bottom: 10px;
+    
+}
+.cruz::before{
+    content: "✚";
+    position: relative;
+    right: 25px;
+    bottom: 40px;
+    font-size: 20px;
+    transform:rotate(10%)
+}
+.carrito{
+    display: inline;
+    position: absolute;
+    background-color: rgb(255, 55, 0);
+    width: 300px;
+    height: 42px;   
+    top: 510px;
+    left: 80px;
+    border-radius: 20px;
+}
+.carrito p{
+    text-align: center;
+    padding: 12px;
+    color: #ffffff;
+    font-weight: bold;
+}
+.carrito:hover{
+    cursor: pointer;
+    background-color: rgba(255, 51, 0, 0.659);
+}
+.corazon::after{
+    content: "♡";
+    position: relative;
+    color: #ffffff;
+    left: 190px;
+    bottom: 50px;
+    font-size: 40px;
+    font-weight: none;
+    
+}
+.textoextra{
+    position: absolute;
+    bottom: 100px;
+    left: 120px;
+    color: #ffffff;
+    font-size: 12px;
+}
+.textoextra p:before{
+    content: "✚";
+    color: rgb(251, 203, 89);
+    position: relative;
+    right: 20px;
+    top: 3px;
+    font-size: 20px;
+}
+.contenedor{
+    
+    width: 100%;
+    background-color: #1f1f1f;
+    line-height: 1.4em;
+    font-size: 17px;
+    margin-top: 0;
+    padding-top: 0;
+}
+.informacion{
+    color: #a3a3a3;
+    max-width: 850px;
+    margin: 0 auto;
+    padding: 50px 0 0 0;
+    
+}
+.informacion p{
+    padding-bottom: 50px;
+}
+.informacion ul{
+    padding-bottom: 50px;
+}
